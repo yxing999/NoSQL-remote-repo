@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Project #4 Demo" Height="600" Width="525" Padding="20" FontFamily="tahoma" Background="#ccc" Loaded="Window_Loaded">
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////
+    // MainWindow.xaml - GUI for Project3HelpWPF                         //
+    // ver 1.0                                                           //
+    // Yuxuan Xing                                                       //
+    // Source:Jim Fawcett, CSE687 - Object Oriented Design, Spring 2018  //
+    ///////////////////////////////////////////////////////////////////////
+    -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="30"></RowDefinition>
+    </Grid.RowDefinitions>
+    <TabControl Grid.Row="0">
+      <TabItem Header=" Local   ">
+        <local:LocalNavControl x:Name="NavLocal"></local:LocalNavControl>
+      </TabItem>
+      <TabItem Header=" Remote  ">
+        <local:RemoteNavControl x:Name="NavRemote"></local:RemoteNavControl>
+      </TabItem>
+      <TabItem Header=" Connect ">
+          <Grid>
+              <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+              </Grid.RowDefinitions>
+              <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+              </Grid.ColumnDefinitions>
+              <Label Grid.Row="0" Grid.Column="0" Content="request connect"/>
+              <!--<TextBox Grid.Row="0" Grid.Column="1" Margin="5" Name="msg" Text="Message from WPF App" KeyDown="TextBox_KeyDown"/>-->
+                    <Button Grid.Row="0" Grid.Column="2" Margin="5" Content="connect" Width="80" Click="Connect">
+                    </Button>
+                    <ListBox Grid.Row="1" Grid.ColumnSpan="3" Name="listboxforconnect" Margin="5,17.5,5,11.5" Grid.RowSpan="2"/>
+          </Grid>
+            </TabItem>
+      <TabItem Header=" Query   ">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" Content="request Query"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Margin="5" Name="msg" Text="what do you want?" KeyDown="TextBox_KeyDown"/>
+                    <Button Grid.Row="0" Grid.Column="2" Margin="5" Content="Query" Width="80" Click="Query">
+                    </Button>
+                    <ListBox Grid.Row="1" Grid.ColumnSpan="3" Name="listboxforQuery" Margin="5,17.5,5,11.5" Grid.RowSpan="2"/>
+                </Grid>
+            </TabItem>
+      <!--<TabItem Header=" About   ">
+        <local:AboutControl></local:AboutControl>
+      </TabItem>-->
+    </TabControl>
+  </Grid>
+</Window>

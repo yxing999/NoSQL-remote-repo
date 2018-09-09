@@ -1,0 +1,188 @@
+
+  Demonstrate Path Class
+ ========================
+  Path::fileSpec(".","temp.txt") = ./temp.txt
+  Path::getPath("./temp.txt") = ./
+  Path::getFullFileSpec("./temp.txt") = c:\su\coretechnologies\Cpp\Code\FileSystem-Windows\Debug\temp.txt
+  Path::getName("./temp.txt") = temp.txt
+  Path::getExt("./temp.txt") = txt
+  Path::toUpper("temp.txt") = TEMP.TXT
+  Path::toLower("Temp.Txt") = temp.txt
+
+  Demonstrate Directory class
+ =============================
+  current directory is:
+    c:\su\coretechnologies\Cpp\Code\FileSystem-Windows\Debug
+  It contains files:
+    FileSystemDemo.exe
+    FileSystemDemo.ilk
+    FileSystemDemo.pdb
+    run.dat
+    TestFileSystem.exe
+    TestFileSystem.ilk
+    TestFileSystem.pdb
+    testGetLine.exe
+    testGetLine.ilk
+    testGetLine.pdb
+    UnitTest.exe
+    UnitTest.ilk
+    UnitTest.pdb
+  and contains directories:
+    .
+    ..
+
+  .txt files residing in C:/temp are:
+    c:\temp\test.txt
+    c:\temp\test.txt
+
+  directories residing in C:/temp are:
+    .
+    ..
+    $temp
+    jQuery1
+    jQueryDemos
+    NewToker
+    testDir1
+    Tokenizer
+
+  Demonstrate FileInfo Class Operations
+ =======================================
+
+  current path is "c:\su\coretechnologies\Cpp\Code\FileSystem-Windows\Debug
+  name: 	test.txt
+  date: 	02/02/2015 11:30:55
+  date: 	02/02/2015
+  date: 	11:30:55
+  size: 	10044 bytes
+  is archive
+  is not compressed
+  is not directory
+  is not encrypted
+  is not hidden
+  is not normal
+  is not offline
+  is not readonly
+  is not system
+  is not temporary
+  files FileSystem.h and FileSystem.cpp are not valid in this context
+
+  Demonstrate File class operations
+ ===================================
+
+  copying ../debug/filesystemdemo.exe to c:/temp
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+    reading block of 1024 bytes
+    writing block of 1024 bytes
+
+    omitted 207 blocks from display
+
+
+    reading block of 512 bytes
+    writing block of 512 bytes
+
+
+  Enter, on the command line, an additional filename to process.
+
+  Can't open file FileSystem.cpp
+  Here's what the program can't find:
+  c:\su\coretechnologies\Cpp\Code\FileSystem-Windows\Debug\FileSystem.cpp
+  Processing file ../FileSystemDemo/FileSystem.cpp
+ --------------------------------------------------
+  -- /////////////////////////////////////////////////////////////////////////////
+  -- // FileSystem.cpp - Support file and directory operations                  //
+  -- // ver 2.5                                                                 //
+  -- // ----------------------------------------------------------------------- //
+  -- // copyright © Jim Fawcett, 2012                                           //
+  -- // All rights granted provided that this notice is retained                //
+  -- // ----------------------------------------------------------------------- //
+  -- // Language:    Visual C++, Visual Studio 2010                             //
+  -- // Platform:    Dell XPS 8300, Core i7, Windows 7 SP1                      //
+  -- // Application: Summer Projects, 2012                                      //
+
+  Processing file ../FileSystemTest.txt
+ ---------------------------------------
+  -- first line of FileSystemTest.txt
+  -- 
+  -- 
+  -- fourth line
+  -- 
+
+  Can't open file foobar
+  Here's what the program can't find:
+  c:\su\coretechnologies\Cpp\Code\FileSystem-Windows\Debug\foobar
+
+  testing File::readAll()
+ -------------------------
+first line of FileSystemTest.txt fourth line 
+
+  testing File::readAll(true)
+ -----------------------------
+first line of FileSystemTest.txt
+
+
+fourth line
+
+
+  test reading non-text files
+ -----------------------------
+  skipping binary file FileSystemDemo.exe
+
+  processing "FileSystemDemo.ilk"
+Microsoft Linker Database
+
+ 
+
+  processing "FileSystemDemo.pdb"
+Microsoft C/C++ MSF 7.00
+
+  skipping binary file run.dat
+  skipping binary file TestFileSystem.exe
+
+  processing "TestFileSystem.ilk"
+Microsoft Linker Database
+
+ 
+
+  processing "TestFileSystem.pdb"
+Microsoft C/C++ MSF 7.00
+
+  skipping binary file testGetLine.exe
+
+  processing "testGetLine.ilk"
+Microsoft Linker Database
+
+ 
+
+  processing "testGetLine.pdb"
+Microsoft C/C++ MSF 7.00
+
+  skipping binary file UnitTest.exe
+
+  processing "UnitTest.ilk"
+Microsoft Linker Database
+
+ 
+
+  processing "UnitTest.pdb"
+Microsoft C/C++ MSF 7.00
+
+
+  writing to c:/temp/test.txt
+ -----------------------------
+  check c:/temp/test.txt to validate
+

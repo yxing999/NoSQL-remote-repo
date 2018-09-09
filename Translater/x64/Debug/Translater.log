@@ -1,0 +1,48 @@
+﻿  Translater.cpp
+c:\su\temp\project3helpwpf\translater\csmessage.h(4): error C2871: 'System': a namespace with this name does not exist
+c:\su\temp\project3helpwpf\translater\csmessage.h(5): error C2653: 'System': is not a class or namespace name
+c:\su\temp\project3helpwpf\translater\csmessage.h(5): error C2871: 'Text': a namespace with this name does not exist
+c:\su\temp\project3helpwpf\translater\csmessage.h(6): error C2653: 'System': is not a class or namespace name
+c:\su\temp\project3helpwpf\translater\csmessage.h(6): error C2871: 'Generic': a namespace with this name does not exist
+c:\su\temp\project3helpwpf\translater\csmessage.h(10): error C2061: syntax error: identifier 'String'
+c:\su\temp\project3helpwpf\translater\csmessage.h(11): error C2061: syntax error: identifier 'String'
+c:\su\temp\project3helpwpf\translater\csmessage.h(12): error C2061: syntax error: identifier 'Dictionary'
+c:\su\temp\project3helpwpf\translater\csmessage.h(14): error C2143: syntax error: missing ';' before '<class-head>'
+c:\su\temp\project3helpwpf\translater\csmessage.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\csmessage.h(16): error C3646: 'String': unknown override specifier
+c:\su\temp\project3helpwpf\translater\csmessage.h(16): error C2143: syntax error: missing ';' before '^'
+c:\su\temp\project3helpwpf\translater\csmessage.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\csmessage.h(16): error C2238: unexpected token(s) preceding ';'
+c:\su\temp\project3helpwpf\translater\csmessage.h(17): error C2144: syntax error: 'int' should be preceded by ';'
+c:\su\temp\project3helpwpf\translater\csmessage.h(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\csmessage.h(20): error C2059: syntax error: 'public'
+c:\su\temp\project3helpwpf\translater\csmessage.h(21): error C2143: syntax error: missing ';' before '{'
+c:\su\temp\project3helpwpf\translater\csmessage.h(21): error C2447: '{': missing function header (old-style formal list?)
+c:\su\temp\project3helpwpf\translater\translater.h(7): error C2871: 'System': a namespace with this name does not exist
+c:\su\temp\project3helpwpf\translater\translater.h(8): error C2653: 'System': is not a class or namespace name
+c:\su\temp\project3helpwpf\translater\translater.h(8): error C2871: 'Text': a namespace with this name does not exist
+c:\su\temp\project3helpwpf\translater\translater.h(12): error C2143: syntax error: missing ';' before '<class-head>'
+c:\su\temp\project3helpwpf\translater\translater.h(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\translater.h(13): error C2086: 'int MsgPassingCommunication::ref': redefinition
+  c:\su\temp\project3helpwpf\translater\csmessage.h(14): note: see declaration of 'MsgPassingCommunication::ref'
+c:\su\temp\project3helpwpf\translater\translater.h(15): error C2653: 'System': is not a class or namespace name
+c:\su\temp\project3helpwpf\translater\translater.h(15): error C2061: syntax error: identifier 'String'
+c:\su\temp\project3helpwpf\translater\translater.h(16): error C2143: syntax error: missing ';' before '^'
+c:\su\temp\project3helpwpf\translater\translater.h(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\translater.h(16): error C2238: unexpected token(s) preceding ';'
+c:\su\temp\project3helpwpf\translater\translater.h(19): error C2653: 'System': is not a class or namespace name
+c:\su\temp\project3helpwpf\translater\translater.h(19): error C2065: 's': undeclared identifier
+c:\su\temp\project3helpwpf\translater\translater.h(19): error C2761: 'std::string MsgPassingCommunication::Sutils::MtoNstr(void)': redeclaration of member is not allowed
+c:\su\temp\project3helpwpf\translater\translater.h(20): error C2448: 'MsgPassingCommunication::Sutils::MtoNstr': function-style initializer appears to be a function definition
+c:\su\temp\project3helpwpf\translater\translater.h(28): error C2143: syntax error: missing ';' before '<class-head>'
+c:\su\temp\project3helpwpf\translater\translater.h(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\su\temp\project3helpwpf\translater\translater.h(29): error C2086: 'int MsgPassingCommunication::ref': redefinition
+  c:\su\temp\project3helpwpf\translater\csmessage.h(14): note: see declaration of 'MsgPassingCommunication::ref'
+c:\su\temp\project3helpwpf\translater\translater.h(31): error C2061: syntax error: identifier 'CsMessage'
+c:\su\temp\project3helpwpf\translater\translater.h(32): error C3646: 'getMessage': unknown override specifier
+c:\su\temp\project3helpwpf\translater\translater.h(32): error C2059: syntax error: '('
+c:\su\temp\project3helpwpf\translater\translater.h(32): error C2238: unexpected token(s) preceding ';'
+c:\su\temp\project3helpwpf\translater\translater.h(38): error C2065: 'CsMessage': undeclared identifier
+c:\su\temp\project3helpwpf\translater\translater.h(38): error C2146: syntax error: missing ')' before identifier 'msg'
+c:\su\temp\project3helpwpf\translater\translater.h(39): error C2143: syntax error: missing ';' before '{'
+c:\su\temp\project3helpwpf\translater\translater.h(39): error C2447: '{': missing function header (old-style formal list?)

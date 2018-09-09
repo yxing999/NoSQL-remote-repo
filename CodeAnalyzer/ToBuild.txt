@@ -1,0 +1,29 @@
+==================
+ To Build and Run
+==================
+
+This solution builds with Visual Studio 2015.  Using the IDE:
+1. Right-click on CodeAnalyzer project and select rebuild.
+2. Right-click on VisualCodeAnalyzer and select rebuild
+
+The code analyzer process runs as a console application.
+VisualCodeAnalyzer is a WPF application written in C++\CLI and runs as
+a Windows (GUI) application. When started it starts the CodeAnalyzer.
+
+The purpose of VisualCodeAnalyzer is to set up command line arguments 
+for CodeAnalyzer by checking analysis types and browsing for a directory 
+subtree to analyze.  
+
+It then starts the CodeAnalyzer process using the path and options 
+selected with the GUI.
+
+You normally just use the first tab for analyzing code.  However,
+the second tab allows you to analyze just the files in a single folder.
+It also lets you select the type or types of analyzes you want to run.
+The third tab - Display Mode - allows you to see normal results, 
+results that are augmented with commentary so you can see how CodeAnalyzer
+works, and a debug mode that generates an enourmous amount of output.
+
+You will find that the path and selections you make are sticky.  If you
+start VisualCodeAnalyzer a second time it will start with the same settings
+you used for the first run, unless you change them.

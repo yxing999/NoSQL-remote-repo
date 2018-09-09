@@ -1,0 +1,83 @@
+General Build Instructions
+==========================
+1. To build a project as a static library:
+   a. Project > Properties > General > Project Defaults > Configuration Type > Static Library
+   b. Project > Properties > C/C++ > Preprocessor > Preprocessor Definitions > noTEST_PROJECTNAME;
+   c. Right-Click on Project and select Build
+2. To build project as an application (.exe)
+   a. Project > Properties > General > Project Defaults > Configuration Type > Application (.exe)
+   b. Project > Properties > C/C++ > Preprocessor > Preprocessor Definitions > TEST_PROJECTNAME;
+   c. Right-Click on Project and select Build
+
+Required References (all references must be built as static libraries)
+======================================================================
+1. DbCore needs reference to DateTime
+2. Edit needs reference to DateTime
+3. Executive needs reference to XmlDocument
+4. PayLoad needs reference to XmlDocument
+5. Persist needs references to DateTime and XmlDocument
+6. Query needs references to DateTime and XmlDocument
+7. TestApplication needs reference to Executive
+8. TestClassProj needs references to DateTime and XmlDocument
+
+Build Instructions for TestClassProj
+====================================
+TestClassProj demonstrates that NoSqlDb meets its requirements
+1. Set DateTime to build as static library
+2. Set XmlDocument to build as static library
+3. Right-Click on TestClassProject and select Set as Startup Project
+4. Set TestClassProj to build as executable
+   a. Right-Click on references > Add References > add DateTime and XmlDocument
+   a. TestClassProj > Properties > General > Project Defaults > Configuration Type > Application (.exe)
+   b. Right-Click on TestClassProj and select Build
+
+Build Instructions for TestApplication
+=======================================
+TestApplication demonstrates how client code uses NoSqlDb
+1. Right-Click on TestApplication and select Set as StartUp Project
+2. Set Executive to build as static library
+3. Set TestApplication to build as an application (.exe)
+   a. Right-Click on references > Add References > add Executive
+   b. Right-Click on TestApplication and select Build
+
+Build Instructions for Executive
+================================
+Executive builds NoSqlDb library for deployment
+1. Set Executive to build as static library
+   a. Right-Click on references > Add References > add XmlDocument
+   b. Right-Click on Executive and select Build
+
+Build Instructions for Solutions that use NoSqlDb
+=================================================
+To use NoSqlDb in other solutions: 
+1. Copy the entire NoSqlDb directory tree into the using project solution folder
+2. You don't need to add any of the individual project files into the using projects.
+3. Just include the NoSqlDb.h file and the applcation's PayLoad.h file.
+4. Link to the Executive.lib file by making a reference to the Executive project
+
+Build Instructions for DateTime as standalone executable
+========================================================
+1. Right-Click on DateTime and select Set as StartUp Project
+2. Set DateTime to build as executable
+   a. DateTime > Properties > General > Project Defaults > Configuration Type > Application (.exe)
+   b. DateTime > Properties > C/C++ > Preprocessor > Preprocessor Definitions > TEST_DATETIME;
+3. Right-Click on DateTime and select Build
+
+Build Instructions for TestUtilities as standalone executable
+=============================================================
+1. Note that All of the Utilities in the solution's Utilities folder provide all their functionality
+   via their header files.
+2. For that reason Projects that use them don't have to build them, but simply include their header files.
+3. Right-Click on TestUtilities and select Set as StartUp Project
+4. TestUtilities > Properties > C/C++ > Preprocessor > Preprocessor Definitions > TEST_TESTUTILITIES;
+5. Right-Click on TestUtilities and select Build
+
+Build Instructions for StringUtilities as standalone executable
+=============================================================
+1. Note that All of the Utilities in the solution's Utilities folder provide all their functionality
+   via their header files.
+2. For that reason Projects that use them don't have to build them, but simply include their header files.
+3. Right-Click on StringUtilities and select Set as StartUp Project
+4. StringUtilities > Properties > C/C++ > Preprocessor > Preprocessor Definitions > TEST_STRINGUTILITIES;
+5. Right-Click on StringUtilities and select Build
+

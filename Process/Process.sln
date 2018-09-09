@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Process", "Process\Process.vcxproj", "{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{384AD8A6-6C19-4C59-B6E8-2A065DBB2599}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\coretechnologies\Win32SystemProgramming\code\spawnProc\spawnProc.cpp = ..\..\..\coretechnologies\Win32SystemProgramming\code\spawnProc\spawnProc.cpp
+		..\..\..\coretechnologies\Win32SystemProgramming\code\spawnProc\testApp\testApp.cpp = ..\..\..\coretechnologies\Win32SystemProgramming\code\spawnProc\testApp\testApp.cpp
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Debug|x64.ActiveCfg = Debug|x64
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Debug|x64.Build.0 = Debug|x64
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Debug|x86.Build.0 = Debug|Win32
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Release|x64.ActiveCfg = Release|x64
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Release|x64.Build.0 = Release|x64
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Release|x86.ActiveCfg = Release|Win32
+		{5E2548A1-C280-49E1-A2B6-55F4BA12B3F2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {447944C8-FF12-432B-9FE8-5F58730E9050}
+	EndGlobalSection
+EndGlobal

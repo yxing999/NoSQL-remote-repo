@@ -1,0 +1,178 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Mon Aug 22 17:21:24 2016
+     Path: C:\SU\Repository\CodeAnalyzer\FileSystem
+     Args: *.h, *.cpp, *.cs, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     208
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          CopyOfUnitTest.h   namespace                               Test      17      64      11
+          CopyOfUnitTest.h    function                              Title      19       4       1
+          CopyOfUnitTest.h       class                           TestBase      26      54       9
+          CopyOfUnitTest.h    function                          ~TestBase      30       2       1
+          CopyOfUnitTest.h    function                             doTest      40      17       4
+          CopyOfUnitTest.h    function                        checkResult      60       8       1
+          CopyOfUnitTest.h    function                             passed      70       4       1
+          CopyOfUnitTest.h    function                             failed      75       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              FileSystem.h   namespace                         FileSystem     121     129      96
+              public data: char Byte ; 
+              FileSystem.h       class                              Block     128      13       9
+              FileSystem.h    function                              Block     129       2       1
+              FileSystem.h       class                               File     146      31      37
+              FileSystem.h    function                               name     177       2       1
+              FileSystem.h       class                           FileInfo     184      32      25
+              FileSystem.h       class                               Path     221      10      14
+              FileSystem.h       class                          Directory     236      13      10
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            FileSystem.cpp    function                              Block      50       2       1
+            FileSystem.cpp    function                          push_back      56       3       1
+            FileSystem.cpp    function                         operator[]      62       5       1
+            FileSystem.cpp    function                         operator[]      70       5       1
+            FileSystem.cpp    function                        operator==(      78       3       1
+            FileSystem.cpp    function                         operator!=      84       3       1
+            FileSystem.cpp    function                               size      90       3       1
+            FileSystem.cpp    function                               File      98       2       1
+            FileSystem.cpp    function                              ~File     102      17       3
+            FileSystem.cpp    function                               open     122      34       5
+            FileSystem.cpp    function                            getLine     159      23       3
+            FileSystem.cpp    function                            readAll     185      13       2
+            FileSystem.cpp    function                            putLine     201      13       1
+            FileSystem.cpp    function                           getBlock     217      22       3
+            FileSystem.cpp    function                           putBlock     242      14       2
+            FileSystem.cpp    function                          getBuffer     259      18       2
+            FileSystem.cpp    function                          putBuffer     280      17       2
+            FileSystem.cpp    function                             isGood     300       9       1
+            FileSystem.cpp    function                              flush     312       4       1
+            FileSystem.cpp    function                              clear     319       6       1
+            FileSystem.cpp    function                              close     328      15       3
+            FileSystem.cpp    function                             exists     346       3       1
+            FileSystem.cpp    function                               copy     352       3       1
+            FileSystem.cpp    function                             remove     358       3       1
+            FileSystem.cpp    function                           FileInfo     364       7       1
+            FileSystem.cpp    function                               good     374       3       1
+            FileSystem.cpp    function                               name     380       3       1
+            FileSystem.cpp    function                        intToString     386       6       1
+            FileSystem.cpp    function                               date     395      14       1
+            FileSystem.cpp    function                               size     412       3       1
+            FileSystem.cpp    function                          isArchive     418       3       1
+            FileSystem.cpp    function                       isCompressed     424       3       1
+            FileSystem.cpp    function                        isDirectory     430       3       1
+            FileSystem.cpp    function                        isEncrypted     436       3       1
+            FileSystem.cpp    function                           isHidden     442       3       1
+            FileSystem.cpp    function                           isNormal     448       3       1
+            FileSystem.cpp    function                          isOffLine     454       3       1
+            FileSystem.cpp    function                         isReadOnly     460       3       1
+            FileSystem.cpp    function                           isSystem     466       3       1
+            FileSystem.cpp    function                        isTemporary     472       3       1
+            FileSystem.cpp    function                         operator<(     478       3       1
+            FileSystem.cpp    function                        operator==(     484       3       1
+            FileSystem.cpp    function                         operator>(     490       3       1
+            FileSystem.cpp    function                            earlier     496       5       1
+            FileSystem.cpp    function                              later     504       5       1
+            FileSystem.cpp    function                            smaller     512       3       1
+            FileSystem.cpp    function                             larger     518       3       1
+            FileSystem.cpp    function                            toLower     524       6       1
+            FileSystem.cpp    function                            toUpper     534       6       1
+            FileSystem.cpp    function                            getName     543      32       5
+            FileSystem.cpp    function                             getExt     578      15       2
+            FileSystem.cpp    function                            getPath     596      10       1
+            FileSystem.cpp    function                    getFullFileSpec     609       8       1
+            FileSystem.cpp    function                           fileSpec     620      16       2
+            FileSystem.cpp    function                getCurrentDirectory     639       5       1
+            FileSystem.cpp    function                setCurrentDirectory     647       3       1
+            FileSystem.cpp    function                           getFiles     653      16       2
+            FileSystem.cpp    function                     getDirectories     672      16       2
+            FileSystem.cpp    function                             create     691       3       1
+            FileSystem.cpp    function                             exists     697       6       1
+            FileSystem.cpp    function                             remove     706       3       1
+            FileSystem.cpp       class                   FileSystemSearch      30      14      10
+            FileSystem.cpp    function                   FileSystemSearch      44       2       1
+            FileSystem.cpp    function                  ~FileSystemSearch      45       2       1
+            FileSystem.cpp    function                              close      46       2       1
+            FileSystem.cpp    function                          firstFile     712      13       2
+            FileSystem.cpp    function                           nextFile     728       6       1
+            FileSystem.cpp    function                     firstDirectory     737      13       2
+            FileSystem.cpp    function                      nextDirectory     753       6       1
+            FileSystem.cpp    function                              title     764       4       1
+            FileSystem.cpp      lambda                                [])     769     438      31
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        FileSystemTest.cpp       class                           TestFile      27     107      15
+        FileSystemTest.cpp    function                           TestFile      30       3       1
+        FileSystemTest.cpp    function                           testName      34       6       1
+        FileSystemTest.cpp    function                  testGetAndPutLine      42      22       3
+        FileSystemTest.cpp    function                 testGetAndPutBlock      66      24       4
+        FileSystemTest.cpp    function                         testExists      92       8       1
+        FileSystemTest.cpp    function                  testCopyAndRemove     102      18       3
+        FileSystemTest.cpp    function                               test     122       9       1
+        FileSystemTest.cpp       class                       TestFileInfo     136      96       9
+        FileSystemTest.cpp    function                       TestFileInfo     139       3       1
+        FileSystemTest.cpp    function                   testConstruction     143       4       1
+        FileSystemTest.cpp    function                           testName     148       9       1
+        FileSystemTest.cpp    function                           testDate     158      11       1
+        FileSystemTest.cpp    function                           testSize     170      16       2
+        FileSystemTest.cpp    function                    testNameCompare     188      31       1
+        FileSystemTest.cpp    function                               test     220       9       1
+        FileSystemTest.cpp       class                           TestPath     234      90       8
+        FileSystemTest.cpp    function                           TestPath     237       3       1
+        FileSystemTest.cpp    function                TestGetFullFileSpec     241       5       1
+        FileSystemTest.cpp    function                        TestGetPath     247      10       1
+        FileSystemTest.cpp    function                        TestGetName     258      13       1
+        FileSystemTest.cpp    function                         TestGetExt     272      19       1
+        FileSystemTest.cpp    function                       TestFileSpec     292      19       1
+        FileSystemTest.cpp    function                               test     312       9       1
+        FileSystemTest.cpp       class                      TestDirectory     326      82       6
+        FileSystemTest.cpp    function                      TestDirectory     329       3       1
+        FileSystemTest.cpp    function             TestCreateRemoveExists     333      10       1
+        FileSystemTest.cpp    function      TestGetAndSetCurrentDirectory     344      11       1
+        FileSystemTest.cpp    function         TestGetFilesAndDirectories     356      41       1
+        FileSystemTest.cpp    function                               test     398       7       1
+        FileSystemTest.cpp    function                               test     410      12       1
+        FileSystemTest.cpp      lambda                                [])     423       7       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                UnitTest.h   namespace                               Test      17      64      11
+                UnitTest.h    function                              Title      19       4       1
+                UnitTest.h       class                           TestBase      26      54       9
+                UnitTest.h    function                          ~TestBase      30       2       1
+                UnitTest.h    function                             doTest      40      17       4
+                UnitTest.h    function                        checkResult      60       8       1
+                UnitTest.h    function                             passed      70       4       1
+                UnitTest.h    function                             failed      75       4       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              UnitTest.cpp       class                 TestStdStringClass      19      42       6
+              UnitTest.cpp    function                   TestConstruction      22       8       1
+              UnitTest.cpp    function                           TestCopy      31       7       1
+              UnitTest.cpp    function          TestWillThrowStdException      39       4       1
+              UnitTest.cpp    function   TestWillThrowStructuredException      44       5       1
+              UnitTest.cpp    function                               test      50       8       1
+              UnitTest.cpp    function                               main      63      10       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+              public data: FileSystem.h : 125 - namespace FileSystem
+                char Byte ; 
+
+
+    searched    12 dirs
+   processed     6 files

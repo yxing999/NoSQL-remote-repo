@@ -1,0 +1,319 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sat Apr 21 17:16:25 2018
+     Path: "C:\su\CSE687\code\Project4HelpS18\Project4Demo\Storage"
+     Args: *.h, *.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     453
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                    Comm.h   namespace            MsgPassingCommunication      50      63       5
+                    Comm.h       class                           Receiver      55      13       1
+                    Comm.h       class                             Sender      73      16       1
+                    Comm.h       class                               Comm      91      14       1
+                    Comm.h    function                             create     107       6       1
+                    Comm.h   namespace            MsgPassingCommunication      43      54      59
+                    Comm.h       class                           Receiver      48      13      11
+                    Comm.h       class                             Sender      66      16      34
+                    Comm.h       class                               Comm      84      13      13
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  Comm.cpp    function                           Receiver      29       3       1
+                  Comm.cpp    function                              queue      35       3       1
+                  Comm.cpp    function                              start      42       3       1
+                  Comm.cpp    function                               stop      48       3       1
+                  Comm.cpp    function                         getMessage      54       4       1
+                  Comm.cpp    function                           Receiver      29       3       1
+                  Comm.cpp    function                              queue      35       3       1
+                  Comm.cpp    function                              start      42       3       1
+                  Comm.cpp    function                               stop      48       3       1
+                  Comm.cpp    function                         getMessage      54       4       1
+                  Comm.cpp    function                             Sender      61       3       1
+                  Comm.cpp    function                            ~Sender      67       4       1
+                  Comm.cpp    function                              start      74      47      10
+                  Comm.cpp    function                               void      75      42       9
+                  Comm.cpp    function                               stop     124       7       1
+                  Comm.cpp    function                            connect     134       4       1
+                  Comm.cpp    function                        postMessage     141       3       1
+                  Comm.cpp    function                           sendFile     149      21       2
+                  Comm.cpp    function                             Sender      61       3       1
+                  Comm.cpp    function                            ~Sender      67       4       1
+                  Comm.cpp    function                              start      74      42       9
+                  Comm.cpp    function                               void      75      37       8
+                  Comm.cpp    function                               stop     119       7       1
+                  Comm.cpp    function                            connect     129       4       1
+                  Comm.cpp    function                        postMessage     136       3       1
+                  Comm.cpp    function                           sendFile     144      21       2
+                  Comm.cpp    function                               Comm     280       2       1
+                  Comm.cpp    function                              start     284      15       1
+                  Comm.cpp    function                               stop     301       4       1
+                  Comm.cpp    function                        postMessage     307       3       1
+                  Comm.cpp    function                         getMessage     312       3       1
+                  Comm.cpp    function                               name     317       3       1
+                  Comm.cpp    function                               Comm     275       2       1
+                  Comm.cpp    function                              start     279      15       1
+                  Comm.cpp    function                               stop     296       4       1
+                  Comm.cpp    function                        postMessage     302       3       1
+                  Comm.cpp    function                         getMessage     307       3       1
+                  Comm.cpp    function                               name     312       3       1
+                  Comm.cpp       class                      ClientHandler     176     104      14
+                  Comm.cpp    function                      ClientHandler     181       3       1
+                  Comm.cpp    function                     ~ClientHandler     186       4       1
+                  Comm.cpp    function                           setQueue     193       3       1
+                  Comm.cpp    function                            readMsg     199      11       2
+                  Comm.cpp    function                        receiveFile     217      31       4
+                  Comm.cpp    function                         operator()     251      24       4
+                  Comm.cpp    function                       DemoSndrRcvr     329      79       1
+                  Comm.cpp    function                      DemoCommClass     415      68       1
+                  Comm.cpp    function                    ThreadProcClnt1     490      28       2
+                  Comm.cpp    function                    ThreadProcClnt2     521      21       2
+                  Comm.cpp    function                   DemoClientServer     548      48       5
+                  Comm.cpp    function                               main     600      20       1
+                  Comm.cpp       class                      ClientHandler     171     104      14
+                  Comm.cpp    function                      ClientHandler     176       3       1
+                  Comm.cpp    function                     ~ClientHandler     181       4       1
+                  Comm.cpp    function                           setQueue     188       3       1
+                  Comm.cpp    function                            readMsg     194      11       2
+                  Comm.cpp    function                        receiveFile     212      31       4
+                  Comm.cpp    function                         operator()     246      24       4
+                  Comm.cpp    function                       DemoSndrRcvr     324      79       1
+                  Comm.cpp    function                      DemoCommClass     410      68       1
+                  Comm.cpp    function                    ThreadProcClnt1     485      28       2
+                  Comm.cpp    function                    ThreadProcClnt2     516      21       2
+                  Comm.cpp    function                   DemoClientServer     543      48       5
+                  Comm.cpp    function                               main     595      20       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              FileSystem.h   namespace                         FileSystem     128     131      97
+              FileSystem.h       class                              Block     135      13       9
+              FileSystem.h    function                              Block     136       2       1
+              FileSystem.h       class                               File     153      31      37
+              FileSystem.h    function                               name     184       2       1
+              FileSystem.h       class                           FileInfo     191      34      26
+              FileSystem.h       class                               Path     230      10      14
+              FileSystem.h       class                          Directory     245      13      10
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            FileSystem.cpp    function                              Block      50       2       1
+            FileSystem.cpp    function                          push_back      56       3       1
+            FileSystem.cpp    function                         operator[]      62       5       1
+            FileSystem.cpp    function                         operator[]      70       5       1
+            FileSystem.cpp    function                         operator==      78       3       1
+            FileSystem.cpp    function                         operator!=      84       3       1
+            FileSystem.cpp    function                               size      90       3       1
+            FileSystem.cpp    function                               File      98       2       1
+            FileSystem.cpp    function                              ~File     102      17       3
+            FileSystem.cpp    function                               open     122      34       5
+            FileSystem.cpp    function                            getLine     159      23       3
+            FileSystem.cpp    function                            readAll     185      13       2
+            FileSystem.cpp    function                            putLine     201      13       1
+            FileSystem.cpp    function                           getBlock     217      22       3
+            FileSystem.cpp    function                           putBlock     242      14       2
+            FileSystem.cpp    function                          getBuffer     259      18       2
+            FileSystem.cpp    function                          putBuffer     280      17       2
+            FileSystem.cpp    function                             isGood     300       9       1
+            FileSystem.cpp    function                              flush     312       4       1
+            FileSystem.cpp    function                              clear     319       6       1
+            FileSystem.cpp    function                              close     328      15       3
+            FileSystem.cpp    function                             exists     346       3       1
+            FileSystem.cpp    function                               copy     352       3       1
+            FileSystem.cpp    function                             remove     358       3       1
+            FileSystem.cpp    function                           FileInfo     364       7       1
+            FileSystem.cpp    function                          ~FileInfo     374       3       1
+            FileSystem.cpp    function                               good     380       3       1
+            FileSystem.cpp    function                               name     386       3       1
+            FileSystem.cpp    function                        intToString     392       6       1
+            FileSystem.cpp    function                               date     401      14       1
+            FileSystem.cpp    function                               size     418       3       1
+            FileSystem.cpp    function                          isArchive     424       3       1
+            FileSystem.cpp    function                       isCompressed     430       3       1
+            FileSystem.cpp    function                        isDirectory     436       3       1
+            FileSystem.cpp    function                        isEncrypted     442       3       1
+            FileSystem.cpp    function                           isHidden     448       3       1
+            FileSystem.cpp    function                           isNormal     454       3       1
+            FileSystem.cpp    function                          isOffLine     460       3       1
+            FileSystem.cpp    function                         isReadOnly     466       3       1
+            FileSystem.cpp    function                           isSystem     472       3       1
+            FileSystem.cpp    function                        isTemporary     478       3       1
+            FileSystem.cpp    function                          operator<     484       3       1
+            FileSystem.cpp    function                         operator==     490       3       1
+            FileSystem.cpp    function                          operator>     496       3       1
+            FileSystem.cpp    function                            earlier     502       5       1
+            FileSystem.cpp    function                              later     510       5       1
+            FileSystem.cpp    function                            smaller     518       3       1
+            FileSystem.cpp    function                             larger     524       3       1
+            FileSystem.cpp    function                            toLower     530       6       1
+            FileSystem.cpp    function                            toUpper     540       6       1
+            FileSystem.cpp    function                            getName     549      32       5
+            FileSystem.cpp    function                             getExt     584      15       2
+            FileSystem.cpp    function                            getPath     602      10       1
+            FileSystem.cpp    function                    getFullFileSpec     615       8       1
+            FileSystem.cpp    function                           fileSpec     626      16       2
+            FileSystem.cpp    function                getCurrentDirectory     645       5       1
+            FileSystem.cpp    function                setCurrentDirectory     653       3       1
+            FileSystem.cpp    function                           getFiles     659      16       2
+            FileSystem.cpp    function                     getDirectories     678      16       2
+            FileSystem.cpp    function                             create     697       3       1
+            FileSystem.cpp    function                             exists     703       6       1
+            FileSystem.cpp    function                             remove     712       3       1
+            FileSystem.cpp       class                   FileSystemSearch      30      14      10
+            FileSystem.cpp    function                   FileSystemSearch      44       2       1
+            FileSystem.cpp    function                  ~FileSystemSearch      45       2       1
+            FileSystem.cpp    function                              close      46       2       1
+            FileSystem.cpp    function                          firstFile     718      13       2
+            FileSystem.cpp    function                           nextFile     734       6       1
+            FileSystem.cpp    function                     firstDirectory     743      13       2
+            FileSystem.cpp    function                      nextDirectory     759       6       1
+            FileSystem.cpp    function                              title     770       4       1
+            FileSystem.cpp    function                               main     775     399      31
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                   IComm.h   namespace            MsgPassingCommunication      12      12       3
+                   IComm.h       class                              IComm      14      10       2
+                   IComm.h    function                             ~IComm      21       2       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Message.h   namespace            MsgPassingCommunication      37      86       6
+                 Message.h      struct                           EndPoint      42       9       4
+              public data: Address address ; 
+              public data: Port port ; 
+                 Message.h    function                           EndPoint      51       2       1
+                 Message.h    function                           toString      55       3       1
+                 Message.h    function                         fromString      60      10       1
+                 Message.h       class                            Message      76      47       1
+                 Message.h   namespace            MsgPassingCommunication      33      84      78
+                 Message.h      struct                           EndPoint      38       9       4
+              public data: Address address ; 
+              public data: Port port ; 
+                 Message.h    function                           EndPoint      47       2       1
+                 Message.h    function                           toString      51       3       1
+                 Message.h    function                         fromString      56      10       1
+                 Message.h       class                            Message      72      45      73
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Message.cpp    function                            Message      14       2       1
+               Message.cpp    function                            Message      20       4       1
+               Message.cpp    function                         attributes      27       3       1
+               Message.cpp    function                          attribute      33       3       1
+               Message.cpp    function                              clear      39       3       1
+               Message.cpp    function                               keys      45       9       2
+               Message.cpp    function                        containsKey      57       5       1
+               Message.cpp    function                             remove      65       8       2
+               Message.cpp    function                              value      76       8       2
+               Message.cpp    function                                 to      87       7       2
+               Message.cpp    function                                 to      97       3       1
+               Message.cpp    function                               from     103       7       2
+               Message.cpp    function                               from     113       3       1
+               Message.cpp    function                               name     119       7       2
+               Message.cpp    function                               name     129       3       1
+               Message.cpp    function                            command     135       7       2
+               Message.cpp    function                            command     145       3       1
+               Message.cpp    function                               file     151       7       2
+               Message.cpp    function                               file     161       3       1
+               Message.cpp    function                      contentLength     167       8       2
+               Message.cpp    function                      contentLength     178       3       1
+               Message.cpp    function                           toString     184       8       2
+               Message.cpp    function                         attribName     195       6       1
+               Message.cpp    function                        attribValue     204       6       1
+               Message.cpp    function                         fromString     213      10       2
+               Message.cpp    function                               show     230      10       2
+               Message.cpp    function                            Message      14       2       1
+               Message.cpp    function                            Message      20       4       1
+               Message.cpp    function                         attributes      27       3       1
+               Message.cpp    function                          attribute      33       3       1
+               Message.cpp    function                              clear      39       3       1
+               Message.cpp    function                               keys      45       9       2
+               Message.cpp    function                        containsKey      57       5       1
+               Message.cpp    function                                 to      65       7       2
+               Message.cpp    function                                 to      75       3       1
+               Message.cpp    function                               from      81       7       2
+               Message.cpp    function                               from      91       3       1
+               Message.cpp    function                               name      97       7       2
+               Message.cpp    function                               name     107       3       1
+               Message.cpp    function                            command     113       7       2
+               Message.cpp    function                            command     123       3       1
+               Message.cpp    function                               file     129       7       2
+               Message.cpp    function                               file     139       3       1
+               Message.cpp    function                      contentLength     145       8       2
+               Message.cpp    function                      contentLength     156       3       1
+               Message.cpp    function                           toString     162       8       2
+               Message.cpp    function                         attribName     173       6       1
+               Message.cpp    function                        attribValue     182       6       1
+               Message.cpp    function                         fromString     191      10       2
+               Message.cpp    function                               show     208      10       2
+               Message.cpp    function                               main     245      56       1
+               Message.cpp    function                               main     223      56       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Sockets.h   namespace                            Sockets     141     159      70
+                 Sockets.h       class                       SocketSystem     146       8       4
+                 Sockets.h       class                             Socket     161      40      30
+                 Sockets.h    function                   operator::SOCKET     172       2       1
+                 Sockets.h    function                         validState     191       2       1
+                 Sockets.h       class                    SocketConnecter     207      12      13
+                 Sockets.h       class                     SocketListener     226      21      22
+                 Sockets.h    function                              start     257      42       6
+                 Sockets.h    function                       ListenThread     271      24       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Sockets.cpp    function                       SocketSystem      35       6       2
+               Sockets.cpp    function                      ~SocketSystem      44       4       1
+               Sockets.cpp    function                             Socket      55       6       1
+               Sockets.cpp    function                             Socket      67       7       1
+               Sockets.cpp    function                             Socket      77       9       1
+               Sockets.cpp    function                          operator=      89      10       1
+               Sockets.cpp    function                              ipVer     106       3       1
+               Sockets.cpp    function                              close     112       4       1
+               Sockets.cpp    function                       shutDownSend     119       6       1
+               Sockets.cpp    function                       shutDownRecv     129       6       1
+               Sockets.cpp    function                           shutDown     138       7       1
+               Sockets.cpp    function                            ~Socket     147       4       1
+               Sockets.cpp    function                               send     157      13       2
+               Sockets.cpp    function                               recv     176      13       2
+               Sockets.cpp    function                         sendString     195      14       2
+               Sockets.cpp    function                         recvString     220      23       4
+               Sockets.cpp    function                   removeTerminator     246       3       1
+               Sockets.cpp    function                         sendStream     254       3       1
+               Sockets.cpp    function                         recvStream     262       3       1
+               Sockets.cpp    function                       bytesWaiting     268       5       1
+               Sockets.cpp    function                        waitForData     276      12       2
+               Sockets.cpp    function                    SocketConnecter     294       3       1
+               Sockets.cpp    function                    SocketConnecter     300       8       1
+               Sockets.cpp    function                          operator=     311      10       1
+               Sockets.cpp    function                   ~SocketConnecter     324       3       1
+               Sockets.cpp    function                            connect     330      63       8
+               Sockets.cpp    function                     SocketListener     399      11       1
+               Sockets.cpp    function                     SocketListener     413       9       1
+               Sockets.cpp    function                          operator=     425      11       1
+               Sockets.cpp    function                    ~SocketListener     439       3       1
+               Sockets.cpp    function                               bind     445      47       6
+               Sockets.cpp    function                             listen     495      12       2
+               Sockets.cpp    function                             accept     510      14       2
+               Sockets.cpp    function                               stop     527       4       1
+               Sockets.cpp       class                      ClientHandler     543       6      20
+               Sockets.cpp    function                         operator()     559      46       6
+               Sockets.cpp    function                 testStringHandling     611      33       6
+               Sockets.cpp    function                 testBufferHandling     650      46       7
+               Sockets.cpp    function                        clearBuffer     553       4       1
+               Sockets.cpp    function           clientTestStringHandling     700      31       5
+               Sockets.cpp    function           clientTestBufferHandling     734      61       8
+               Sockets.cpp    function                               main     798      41       4
+
+
+    searched     7 dirs
+   processed    13 files

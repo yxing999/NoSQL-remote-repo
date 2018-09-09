@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "WpfApp1", "WpfApp1.exe", "{FD2BBD44-2B7F-4695-9185-7695338AD96E}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\su\temp\Project3HelpWPF-Incomplete-Will-Demo\GUI\bin\x86\Debug\WpfApp1.exe
+		RemoteMachine = ODIN
+		StartingDirectory = C:\su\temp\Project3HelpWPF-Incomplete-Will-Demo\GUI\bin\x86\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD2BBD44-2B7F-4695-9185-7695338AD96E}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB04CAF5-DBEB-465D-8A44-925414C993D1}
+	EndGlobalSection
+EndGlobal

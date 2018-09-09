@@ -1,0 +1,14 @@
+C:\Users\James\Desktop\CodeAnalyzer
+true
+true
+true
+false
+FolderSelection
+true
+true
+false
+false
+true
+false
+false
+true

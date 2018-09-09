@@ -1,0 +1,3 @@
+﻿  AutoTest.cpp
+DateTime.lib(DateTime.obj) : warning LNK4099: PDB 'DateTime.pdb' was not found with 'DateTime.lib(DateTime.obj)' or at 'C:\project 4\Project4Demo\Debug\DateTime.pdb'; linking object as if no debug info
+  AutoTest.vcxproj -> C:\project 4\Project4Demo\Debug\AutoTest.exe

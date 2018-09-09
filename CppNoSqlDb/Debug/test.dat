@@ -1,0 +1,442 @@
+
+  Testing DbCore<PayLoad>
+ =========================
+  Demonstrating Requirement #1
+ ------------------------------
+  class std::function<bool __cdecl(void)>, declared in this function, 
+  is only valid for C++11 and later versions.
+passed <<<<
+
+  Demonstrating Requirement #2
+ ------------------------------
+  A visual examination of all the submitted code will show only
+  use of streams and operators new and delete.
+passed <<<<
+
+  Demonstrating Requirement #3a - creating DbElement
+ ----------------------------------------------------
+  Creating a db element with key "Fawcett":
+  Name           DateTime                  Description         Payload             
+  -------------  ------------------------  ------------------  ------------------  
+  Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+passed <<<<
+
+  Demonstrating Requirement #3b - creating DbCore
+ -------------------------------------------------
+  after adding elements with keys: 
+  Fawcett Sun Salman Prashar Arora 
+
+  make all the new elements children of element with key "Fawcett"
+  Name           DateTime                  Description         Payload             
+  -------------  ------------------------  ------------------  ------------------  
+  Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  showing all the database elements:
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+
+  database keys are: 
+  Fawcett Sun Salman Prashar Arora 
+passed <<<<
+
+  Demonstrating Requirement #4 - adding and deleteing records
+ -------------------------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+
+  deleting "Fawcett" record
+ ---------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+
+  adding back "Fawcett" record
+ ------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+passed <<<<
+
+  Demonstrating Requirement #5a - editing child relationships
+ -------------------------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  adding foobar child relationship to db["Fawcett"]
+ ---------------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora foobar
+
+  removing foobarchild relationship from db["Fawcett"]
+ ------------------------------------------------------
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  finding parents of Prashar
+ ----------------------------
+  Salman Fawcett 
+
+  removing db["Prashar"] whose key is a child of other db elements
+ ------------------------------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Arora
+passed <<<<
+
+  Demonstrating Requirement #5b - editing metadata
+ --------------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  editing "Fawcett" element
+ ---------------------------
+  Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+  James          Tue Feb 25 21:38:51 1992  Instructor for OOD  The bad news is ..  
+    child keys:  Shafiq Santosh
+passed <<<<
+
+  Demonstrating Requirement #6 - Metadata Queries
+ -------------------------------------------------
+  creating default query, q1, and displaying:
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  select on child keys { "Prashar" }
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  select on name containing "Ji" and description containing "In" or "TA"
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Fawcett        Jim            Sun Feb 18 21:38:51 2018  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  select on time lowerbound = Sat Feb 18 21:38:51 2017 and upperbound = Sun Feb 18 21:38:51 2018
+  after changing time of "Fawcett" to Fri Feb 19 21:38:51 2016
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+passed <<<<
+
+  Demonstrating Requirement #7 - Compound Queries
+ -------------------------------------------------
+  q1 selecting on name = "Jim"
+ ------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Fawcett        Jim            Fri Feb 19 21:38:51 2016  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  q2 - selecting on description containing "TA"
+ -----------------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+
+  q2 = q1 or q2
+ ---------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Sun            Jianan         Sun Feb 18 21:38:51 2018  TA for CSE687       Dr. Fawcett said .  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       You should try ...  
+    child keys:  Sun Prashar Arora
+  Prashar        Nikhil         Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Arora          Pranjul        Sun Feb 18 21:38:51 2018  TA for CSE687       You didn't demonst  
+  Fawcett        Jim            Fri Feb 19 21:38:51 2016  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+
+  q2 = q2 and q1
+ ----------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Fawcett        Jim            Fri Feb 19 21:38:51 2016  Instructor for CSE  The good news is .  
+    child keys:  Salman Sun Prashar Arora
+passed <<<<
+
+  Demonstrating Requirement #8 - Persistance
+ --------------------------------------------
+
+  test database
+ ---------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  one            elem1          Sun Feb 18 21:38:51 2018  descrip1            test value1         
+    child keys:  elem2 elem3
+  two            elem2          Sun Feb 18 21:38:51 2018  descrip2 - a very   test value2         
+    child keys:  elem1 elem3
+  three          elem3          Sun Feb 18 21:38:51 2018  descrip3            test value3 with s  
+    child keys:  elem2
+
+  test database payload details
+ -------------------------------
+  Name      Payload Value                                Categories               
+  --------  --------------------------------------  -----------------------  
+  elem1     test value1                             cat1 cat2 
+  elem2     test value2                             cat1 cat3 
+  elem3     test value3 with some extra not very i  cat2 
+
+  shard keys are:
+ -----------------
+  one two 
+
+  XML string representation of test database:
+ ---------------------------------------------
+  <db type="fromQuery">
+    <dbRecord>
+      <key>
+        one
+      </key>
+      <value>
+        <name>
+          elem1
+        </name>
+        <description>
+          descrip1
+        </description>
+        <children>
+          <child>
+            elem2
+          </child>
+          <child>
+            elem3
+          </child>
+        </children>
+        <payload>
+          <value>
+            test value1
+          </value>
+          <categories>
+            <category>
+              cat1
+            </category>
+            <category>
+              cat2
+            </category>
+          </categories>
+        </payload>
+      </value>
+    </dbRecord>
+    <dbRecord>
+      <key>
+        two
+      </key>
+      <value>
+        <name>
+          elem2
+        </name>
+        <description>
+          descrip2 - a very long and boring description of virtually nothing
+        </description>
+        <children>
+          <child>
+            elem1
+          </child>
+          <child>
+            elem3
+          </child>
+        </children>
+        <payload>
+          <value>
+            test value2
+          </value>
+          <categories>
+            <category>
+              cat1
+            </category>
+            <category>
+              cat3
+            </category>
+          </categories>
+        </payload>
+      </value>
+    </dbRecord>
+  </db>
+
+  after rebuilding db from xml string
+ -------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  one            elem1          Sun Feb 18 21:38:51 2018  descrip1            test value1         
+    child keys:  elem2 elem3
+  two            elem2          Sun Feb 18 21:38:51 2018  descrip2 - a very   test value2         
+    child keys:  elem1 elem3
+
+  Name      Payload Value                                Categories               
+  --------  --------------------------------------  -----------------------  
+  elem1     test value1                             cat1 cat2 
+  elem2     test value2                             cat1 cat3 
+
+  after augmenting db from xml string
+ -------------------------------------
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  one            elem1          Sun Feb 18 21:38:51 2018  descrip1            test value1         
+    child keys:  elem2 elem3
+  two            elem2          Sun Feb 18 21:38:51 2018  descrip2 - a very   test value2         
+    child keys:  elem1 elem3
+  three          elem3          Sun Feb 18 21:38:51 2018  descrip3            test value3 with s  
+    child keys:  elem2
+
+  Name      Payload Value                                Categories               
+  --------  --------------------------------------  -----------------------  
+  elem1     test value1                             cat1 cat2 
+  elem2     test value2                             cat1 cat3 
+  elem3     test value3 with some extra not very i  cat2 
+passed <<<<
+
+  Demonstrating Requirement #9 - PayLoad Queries
+ ------------------------------------------------
+  db revised for payload tests:
+
+  Name      Payload Value                                Categories               
+  --------  --------------------------------------  -----------------------  
+  Jianan    Dr. Fawcett said ...                    
+  Ammar     Test Payload #2                         firstCategory thirdCategory 
+  Nikhil    You didn't demonstrate Requirement #4   
+  Pranjul   You didn't demonstrate Requirement #5   
+  Jim       Test Payload #1                         firstCategory secondCategory 
+
+  select on payload categories for "thirdCategory"
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Salman         Ammar          Sun Feb 18 21:38:51 2018  TA for CSE687       Test Payload #2     
+    child keys:  Sun Prashar Arora
+
+  select on payload value "Test Payload #1"
+
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Fawcett        Jim            Fri Feb 19 21:38:51 2016  Instructor for CSE  Test Payload #1     
+    child keys:  Salman Sun Prashar Arora
+passed <<<<
+
+  Demonstrating Requirement #10 - required packages
+ ===================================================
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\dbcore\dbcore.h"
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\edit\edit.h"
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\executive\executive.h"
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\payload\payload.h"
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\persist\persist.h"
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\query\query.h"
+passed <<<<
+
+  Demonstrate Requirement #11 -  Solution Structure
+ ===================================================
+  Key            Name           DateTime                  Description         Payload             
+  -------------  -------------  ------------------------  ------------------  ------------------  
+  Exec           Exec           Sun Feb 18 21:38:51 2018  deployer                                
+    child keys:  DateTime DbCore Edit PayLoad Persist Query TestClass StringUtilities
+  StringUtiliti  StringUtiliti  Sun Feb 18 21:38:51 2018  string helpers                          
+  DbCore         DbCore         Sun Feb 18 21:38:51 2018  base db functional                      
+    child keys:  DateTime PayLoad StringUtilities
+  Edit           Edit           Sun Feb 18 21:38:51 2018  edit db elements                        
+    child keys:  DateTime DbCore PayLoad Query StringUtilities
+  PayLoad        PayLoad        Sun Feb 18 21:38:51 2018  application specif                      
+    child keys:  DbCore StringUtilities
+  Persist        Persist        Sun Feb 18 21:38:51 2018  save and restore d                      
+    child keys:  DateTime DbCore PayLoad Query StringUtilities XmlDocument XmlElement
+  Query          Query          Sun Feb 18 21:38:51 2018  search for db info                      
+    child keys:  DbCore PayLoad StringUtilities
+  TestClass      TestClass      Sun Feb 18 21:38:51 2018  test db functional                      
+    child keys:  DateTime DbCore Edit PayLoad Persist Query TestClass StringUtilities
+passed <<<<
+
+  Demonstrate Requirement #12 - Executive Package
+ =================================================
+  You will find the executive package here:
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\executive\executive.h"
+
+  Executive is used to demonstrate a deployable structure.
+  Demonstration of requirements is delegated to:
+  "c:\su\temp\instrsolpr1-s18\cppnosqldb\testclassproj\testclass.h"
+passed <<<<
+
+  Demonstrate Requirement #13 - Solution Structure PDF
+ ======================================================
+  You will find a package diagram for the NoSqlDb here:
+    "c:\su\temp\instrsolpr1-s18\cppnosqldb\executive
+
+passed <<<<
+
+

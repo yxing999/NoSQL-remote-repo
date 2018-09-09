@@ -1,0 +1,17 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Mon Apr  9 14:45:18 2018
+     Path: "C:\su\temp\Project4Sample\Storage\Test3"
+     Args: *.h, *.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1       1
+
+
+    searched     1 dirs
+   processed     0 files

@@ -1,0 +1,1 @@
+devenv Project4xyx.sln /rebuild debug

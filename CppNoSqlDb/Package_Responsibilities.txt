@@ -1,0 +1,30 @@
+Package Responsibilities
+========================
+1. DateTime
+   - create, show, and modify date-time stamps
+   - add or subtract time durations
+2. DbCore
+   - define db records, e.g., key and DbElement
+   - provide in-memory storage for db records
+   - add and remove db records
+   - simple editing of records
+3. Edit
+   - make DbElement editing operations easy to use
+4. Executive
+   - provide a static library and single header file to provide access to NoSqlDb functionality
+5. PayLoad
+   - application defined class that holds application specific data
+6. Persist
+   - provide for saving and retrieving a NoSqlDb to and from XML strings
+7. Query
+   - provides a language and facilities for extracting information from the NoSqlDb
+8. StringUtilities
+   - provides title formatting, and line feeds
+9. TestApplication
+   - shows how to use NoSqlDb in another application
+10. TestClassProj
+    - Demonstrates that NoSqlDb satisfies its requirements
+11. TestUtilities
+    - an alternate form of testing used for the initial prototype
+12. XmlDocument
+    - Xml string creation and parsing facility

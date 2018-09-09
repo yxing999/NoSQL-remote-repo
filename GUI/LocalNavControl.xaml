@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="WpfApp1.LocalNavControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+  <!-- 
+  ///////////////////////////////////////////////////////////////////////
+  // LocalNavControl.xaml - Control GUI for Local Navigation           //
+  // ver 1.0                                                           //
+  // Yuxuan Xing                                                       //
+  // Source:Jim Fawcett, CSE687 - Object Oriented Design, Spring 2018  //
+  ///////////////////////////////////////////////////////////////////////
+  -->
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>  <!--dirs--> 
+      <RowDefinition Height="5"></RowDefinition>  <!--gridsplitter-->
+      <RowDefinition Height="*"></RowDefinition>  <!--files-->
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0" Background="#ccc">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="30"></RowDefinition>  <!--label--> 
+        <RowDefinition Height="30"></RowDefinition>  <!--textblock--> 
+        <RowDefinition Height="*"></RowDefinition>   <!--dir list--> 
+        <RowDefinition Height="10"></RowDefinition>  <!--buttons--> 
+      </Grid.RowDefinitions>
+      <DockPanel Grid.Row="0">
+        <Button x:Name="Refresh" Width="60" Height="20" Margin="10 0" DockPanel.Dock="Right" Click="Refresh_Click">Refresh</Button>
+        <TextBlock DockPanel.Dock="Left" Margin="10 0" VerticalAlignment="Center" FontSize="14" FontWeight="Bold">Dirs</TextBlock>
+      </DockPanel>
+      <DockPanel Grid.Row="1">
+        <Label Width="40" Height="30" Margin="10 0 5 0" DockPanel.Dock="Right">Path</Label>
+        <TextBlock x:Name="PathTextBlock" DockPanel.Dock="Left" Padding="10 0" Margin="12 0" VerticalAlignment="Center" FontSize="14" FontWeight="Normal" Background="#fff">path</TextBlock>
+      </DockPanel>
+      <Border Grid.Row="2" BorderThickness="10" Background="#000">
+        <ListBox x:Name="DirList" MouseDoubleClick="DirList_MouseDoubleClick"></ListBox>
+      </Border>
+    </Grid>
+    <GridSplitter Grid.Row="1" Grid.ColumnSpan="3" Height="5" HorizontalAlignment="Stretch" Background="#666"></GridSplitter>
+    <Grid Grid.Row="2" Background="#ccc">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="30"></RowDefinition>  <!--label--> 
+        <RowDefinition Height="*"></RowDefinition>   <!--file list--> 
+        <RowDefinition Height="10"></RowDefinition>  <!--buttons--> 
+      </Grid.RowDefinitions>
+      <TextBlock Grid.Row="0" Padding="10 10" FontWeight="Bold" FontSize="14">Files</TextBlock>
+      <Border Grid.Row="1" BorderThickness="10" Background="#000">
+        <ListBox x:Name="FileList" MouseDoubleClick="FileList_MouseDoubleClick"></ListBox>
+      </Border>
+    </Grid>
+  </Grid>
+</UserControl>

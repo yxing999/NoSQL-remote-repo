@@ -1,0 +1,62 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sun May 28 12:17:48 2017
+     Path: "C:\Users\jimfa\Desktop\CodeAnalyzer\ScopeStack"
+     Args: *.h, *.cpp, *.cs, /a, /m, /r, /f
+                                                                               
+
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      25
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+              ScopeStack.h   namespace                       CodeAnalysis      59     137      21
+              ScopeStack.h       class                         ScopeStack      61      19      12
+              ScopeStack.h    function                         ScopeStack      81       2       1
+              ScopeStack.h    function                               size      84       2       1
+              ScopeStack.h    function                              begin      87       2       1
+              ScopeStack.h    function                                end      90       2       1
+              ScopeStack.h    function                               push      95       6       1
+              ScopeStack.h    function                                pop     104      12       2
+              ScopeStack.h    function                                top     119       7       2
+              ScopeStack.h    function                          predOfTop     129       8       2
+              ScopeStack.h    function                          showStack     140      17       3
+              ScopeStack.h    function                          showStack     160      16       3
+              ScopeStack.h    function                           TreeWalk     180      15       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            ScopeStack.cpp      struct                            element      25      22       2
+              public data: std :: string type ; 
+              public data: std :: string name ; 
+              public data: size_t startLineCount = 0 ; 
+              public data: size_t endLineCount = 0 ; 
+              public data: std :: string path_ ; 
+            ScopeStack.cpp    function                               show      32      13       1
+            ScopeStack.cpp    function                               main      49      75       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            ScopeStack.cpp    function                               main      49      75       1
+
+              public data: ScopeStack.cpp : 26 - struct element
+                std :: string type ; 
+              public data: ScopeStack.cpp : 27 - struct element
+                std :: string name ; 
+              public data: ScopeStack.cpp : 28 - struct element
+                size_t startLineCount = 0 ; 
+              public data: ScopeStack.cpp : 29 - struct element
+                size_t endLineCount = 0 ; 
+              public data: ScopeStack.cpp : 30 - struct element
+                std :: string path_ ; 
+
+
+    searched     6 dirs
+   processed     2 files

@@ -1,0 +1,4 @@
+﻿  Query.cpp
+DateTime.lib(DateTime.obj) : warning LNK4099: PDB 'DateTime.pdb' was not found with 'DateTime.lib(DateTime.obj)' or at 'C:\project 4\Project4Demo\Debug\DateTime.pdb'; linking object as if no debug info
+XmlDocument.lib(XmlElement.obj) : warning LNK4099: PDB 'XmlDocument.pdb' was not found with 'XmlDocument.lib(XmlElement.obj)' or at 'C:\project 4\Project4Demo\Debug\XmlDocument.pdb'; linking object as if no debug info
+  Query.vcxproj -> C:\project 4\Project4Demo\Debug\Query.exe

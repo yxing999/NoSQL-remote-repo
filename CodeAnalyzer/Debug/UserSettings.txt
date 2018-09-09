@@ -1,0 +1,15 @@
+C:\Users\jfawc\Desktop\Project4\GUI
+true
+true
+false
+false
+FolderSelection
+false
+false
+true
+false
+false
+true
+false
+false
+true

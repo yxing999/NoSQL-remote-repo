@@ -1,0 +1,50 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Translater, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class MsgPassingCommunication.Sutils: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    MtoNstr(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, String): PrivateScope, Public, Static, HideBySig
+    NtoMstr(basic_string<char\,std::char_traits<char>\,std::allocator<char> >* IsImplicitlyDereferenced): PrivateScope, Public, Static, HideBySig
+Class MsgPassingCommunication.CsEndPoint: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int32 port 'get set' : 
+    System.String machineAddress 'get set' : 
+  Methods:
+    get_machineAddress(): PrivateScope, Public, HideBySig, SpecialName
+    set_machineAddress(String): PrivateScope, Public, HideBySig, SpecialName
+    get_port(): PrivateScope, Public, HideBySig, SpecialName
+    set_port(Int32): PrivateScope, Public, HideBySig, SpecialName
+    toString(CsEndPoint): PrivateScope, Public, Static, HideBySig
+    fromString(String): PrivateScope, Public, Static, HideBySig
+Class MsgPassingCommunication.CsMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(MsgPassingCommunication.CsEndPoint, MsgPassingCommunication.CsEndPoint): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.Dictionary`2[System.String,System.String] attributes 'get set' : 
+  Methods:
+    add(String, String): PrivateScope, Public, HideBySig
+    value(String): PrivateScope, Public, HideBySig
+    remove(String): PrivateScope, Public, HideBySig
+    get_attributes(): PrivateScope, Public, HideBySig, SpecialName
+    set_attributes(Dictionary`2): PrivateScope, Public, HideBySig, SpecialName
+    show(): PrivateScope, Public, HideBySig
+Class MsgPassingCommunication.Translater: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    listen(CsEndPoint): PrivateScope, Public, HideBySig
+    postMessage(CsMessage): PrivateScope, Public, HideBySig
+    getMessage(): PrivateScope, Public, HideBySig
+    fromMessage(Message* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    fromCsMessage(Message*, CsMessage): PrivateScope, Public, HideBySig
+    setSendFilePath(String): PrivateScope, Public, HideBySig
+    setSaveFilePath(String): PrivateScope, Public, HideBySig

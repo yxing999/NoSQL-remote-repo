@@ -1,0 +1,17 @@
+ToDo:
+=========================
+3. add function in XmlDocument to simplify body query
+4. may have race condition in selectAsync - depends on how promise refers to future
+   Would be better to rewrite selectAsync per asynchCustom demo
+
+Completed:
+=======================
+1. implement editing package
+   - capability exists, but needs Edit wrapper to make easier to use
+2. add addition and removal of records to editing package
+   - capability exists, but needs Edit wrapper to make easier to use
+4. Add Executive package and demo package structure
+5. Create db with this solution's structure
+6. Create pdf of structure
+7. Change name of template payload parameter to P
+

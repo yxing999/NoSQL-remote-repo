@@ -1,0 +1,94 @@
+C:\su\temp\Project3HelpWPF\GUI\bin\x86\Debug\WpfApp1.exe.config
+C:\su\temp\Project3HelpWPF\GUI\bin\x86\Debug\WpfApp1.exe
+C:\su\temp\Project3HelpWPF\GUI\bin\x86\Debug\WpfApp1.pdb
+C:\su\temp\Project3HelpWPF\GUI\bin\x86\Debug\Translater.dll
+C:\su\temp\Project3HelpWPF\GUI\bin\x86\Debug\Translater.pdb
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\CodePopupWindow.g.cs
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\MainWindow.g.cs
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\App.g.cs
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\CodePopupWindow.baml
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\MainWindow.baml
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1.g.resources
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1.exe
+C:\su\temp\Project3HelpWPF\GUI\obj\x86\Debug\WpfApp1.pdb
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\bin\x86\Debug\WpfApp1.exe.config
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\bin\x86\Debug\WpfApp1.exe
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\bin\x86\Debug\WpfApp1.pdb
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\bin\x86\Debug\Translater.dll
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\bin\x86\Debug\Translater.pdb
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\CodePopupWindow.g.cs
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\MainWindow.g.cs
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\App.g.cs
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\CodePopupWindow.baml
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\MainWindow.baml
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1.g.resources
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1.exe
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\WpfApp1.pdb
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\NavControl.g.cs
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\su\CSE687\code\Project4HelpS18\Project4Sample\GUI\obj\x86\Debug\NavControl.baml
+C:\project 4\Project4Demo\GUI\bin\x86\Debug\WpfApp1.exe.config
+C:\project 4\Project4Demo\GUI\bin\x86\Debug\WpfApp1.exe
+C:\project 4\Project4Demo\GUI\bin\x86\Debug\WpfApp1.pdb
+C:\project 4\Project4Demo\GUI\bin\x86\Debug\Translater.dll
+C:\project 4\Project4Demo\GUI\bin\x86\Debug\Translater.pdb
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\AboutControl.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\CodePopupWindow.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\LocalNavControl.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\MainWindow.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\RemoteNavControl.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\App.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\AboutControl.baml
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\CodePopupWindow.baml
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\LocalNavControl.baml
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\MainWindow.baml
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\RemoteNavControl.baml
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1.g.resources
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1.exe
+C:\project 4\Project4Demo\GUI\obj\x86\Debug\WpfApp1.pdb
+C:\CSE687\Project4xyx\GUI\bin\x86\Debug\WpfApp1.exe.config
+C:\CSE687\Project4xyx\GUI\bin\x86\Debug\WpfApp1.exe
+C:\CSE687\Project4xyx\GUI\bin\x86\Debug\WpfApp1.pdb
+C:\CSE687\Project4xyx\GUI\bin\x86\Debug\Translater.dll
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\GUI.csprojAssemblyReference.cache
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\AboutControl.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\CodePopupWindow.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\LocalNavControl.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\MainWindow.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\RemoteNavControl.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\App.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.cache
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1_MarkupCompile.lref
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\AboutControl.baml
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\CodePopupWindow.baml
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\LocalNavControl.baml
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\MainWindow.baml
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\RemoteNavControl.baml
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1.g.resources
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1.Properties.Resources.resources
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.cache
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\GUI.csproj.CopyComplete
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1.exe
+C:\CSE687\Project4xyx\GUI\obj\x86\Debug\WpfApp1.pdb
+C:\CSE687\Project4xyx\GUI\bin\x86\Debug\Translater.pdb

@@ -1,0 +1,12 @@
+Build.Text - Describes how to build this solution
+-------------------------------------------------
+1. Set XmlDocument properties to build as a static library
+   Right-Click XmlDocument project > select properties > General > Configuration Type > Static Library
+   Select C\C++ > Preprocessor > Preprocessor Definitions > change TEST_XMLDOCUMENT; to noTEST_XMLDOCUMENT;
+2. Rebuild XmlDocument project
+3. Set XmlHelpDemo as Startup Project
+   Right-Click XmlHelpDemo project > Set as Startup Project
+4. Add XmlHelpDemo reference to XmlDocument
+   Right-Click on XmlHelpDemo references > Add Reference > check XmlDocument
+5. Build XmlHelpDemo project
+6. Run without debugging

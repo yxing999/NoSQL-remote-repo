@@ -1,0 +1,70 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Tue Apr 10 11:40:17 2018
+     Path: "C:\Users\jfawc\Desktop\Project4Sample\Storage\Test1"
+     Args: *.h, *.cpp, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      42
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Message.h   namespace            MsgPassingCommunication      33      84      40
+                 Message.h      struct                           EndPoint      38       9       4
+              public data: Address address ; 
+              public data: Port port ; 
+              public data: std :: string toString ( ) ; 
+                 Message.h    function                           EndPoint      47       2       1
+                 Message.h    function                           toString      51       3       1
+                 Message.h    function                         fromString      56      10       1
+                 Message.h       class                            Message      72      45      35
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Message.cpp    function                            Message      14       2       1
+               Message.cpp    function                            Message      20       4       1
+               Message.cpp    function                         attributes      27       3       1
+               Message.cpp    function                          attribute      33       3       1
+               Message.cpp    function                              clear      39       3       1
+               Message.cpp    function                               keys      45       9       2
+               Message.cpp    function                        containsKey      57       5       1
+               Message.cpp    function                                 to      65       7       2
+               Message.cpp    function                                 to      75       3       1
+               Message.cpp    function                               from      81       7       2
+               Message.cpp    function                               from      91       3       1
+               Message.cpp    function                               name      97       7       2
+               Message.cpp    function                               name     107       3       1
+               Message.cpp    function                            command     113       7       2
+               Message.cpp    function                            command     123       3       1
+               Message.cpp    function                               file     129       7       2
+               Message.cpp    function                               file     139       3       1
+               Message.cpp    function                      contentLength     145       8       2
+               Message.cpp    function                      contentLength     156       3       1
+               Message.cpp    function                           toString     162       8       2
+               Message.cpp    function                         attribName     173       6       1
+               Message.cpp    function                        attribValue     182       6       1
+               Message.cpp    function                         fromString     191      10       2
+               Message.cpp    function                               show     208      10       2
+               Message.cpp    function                               main     223      56       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               Message.cpp    function                               main     223      56       1
+
+              public data: Message.h : 41 - struct EndPoint
+                Address address ; 
+              public data: Message.h : 42 - struct EndPoint
+                Port port ; 
+              public data: Message.h : 44 - struct EndPoint
+                std :: string toString ( ) ; 
+
+
+    searched     3 dirs
+   processed     2 files

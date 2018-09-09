@@ -1,0 +1,34 @@
+starting Receiver
+  starting ClientHandler
+  staring bind operation
+  server created ListenSocket
+  bind operation complete
+  starting TCP listening socket setup
+  server TCP listening socket setup complete
+  server waiting for connection
+  IPv6: ::1
+  server accepted connection
+  RecvThread reading message from socket
+  send thread dequeued message: msg #1
+  send thread sending msg #1
+  send thread dequeued message: msg #2
+  send thread sending msg #2
+  RecvThread read message: msg #1
+  RecvThread reading message from socket
+  Main received message:msg #1
+  RecvThread read message: msg #2
+  RecvThread reading message from socket
+  received message:msg #2
+
+
+  send thread dequeued message: invalid socket in Socket::recvString
+  send thread shutting down
+  SocketConnecter instance destroyed
+  ClientHandler destroyed;
+  SocketListener instance destroyed
+
+  -- server accept failed with error: 10004
+  -- this occurs when application shuts down while listener thread is blocked on Accept call
+  Listen thread stopping
+  Socket System cleaning up
+

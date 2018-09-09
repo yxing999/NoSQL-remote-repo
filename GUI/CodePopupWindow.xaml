@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp1.CodePopupWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="CodePopupWindow" Height="700" Width="800" Background="#ddd">
+  <!-- 
+  /////////////////////////////////////////////////////////////////////////
+  // CodePopupWindow.xaml - Window to display source code                //
+  // ver 1.0                                                             //
+  // Yuxuan Xing                                                         //
+  // Source:Jim Fawcett, CSE687 - Object Oriented Design, Spring 2018    //
+  /////////////////////////////////////////////////////////////////////////
+  -->
+  <Grid Margin="10">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="*"></RowDefinition>
+      <RowDefinition Height="50"></RowDefinition>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Grid.RowDefinitions>
+        <RowDefinition Height="30"></RowDefinition>
+        <RowDefinition Height="*"></RowDefinition>
+      </Grid.RowDefinitions>
+      <TextBox Grid.Row="0" Name="codeLabel" TextAlignment="Center" Padding="3" BorderThickness="0" Background="#ddd">Code View</TextBox>
+      <FlowDocumentScrollViewer Grid.Row="1" BorderThickness="1" BorderBrush="Black" IsToolBarVisible="False" VerticalScrollBarVisibility="Auto" >
+        <FlowDocument Name="codeView" FontFamily="Consolas" FontSize="12" PageWidth="800" Background="#fff">
+          <Paragraph Name="main">
+            <TextBlock TextWrapping="NoWrap"></TextBlock>
+          </Paragraph>
+        </FlowDocument>
+      </FlowDocumentScrollViewer>
+    </Grid>
+    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+      <Button Name="exitButton" Height="20" Width="50" Click="exitButton_Click">Exit</Button>
+    </StackPanel>
+  </Grid>
+</Window>

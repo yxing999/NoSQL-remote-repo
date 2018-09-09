@@ -1,0 +1,18 @@
+Notes:
+======
+1. No payload specific processing in Query
+   - due to use of template member select(T t)
+2. No payload specific processing in Persist
+   - due to requirement on PayLoad classes to implement
+     - toXmlElement
+     - fromXmlElement
+   Persist just uses those
+3. Solution structure is not optimal for deployment
+   - we need a static library for all of NoSql
+     - no problem, Executive package can help with that
+   - now we need directories holding each header
+     - fixing requires moving .h files out of project folders
+4. Moved all application-wide definitions into Definitions.h
+5. TestClass provides a lot of documentation about how to use
+   the NoSql database
+   - especially useful because the documentation is executable

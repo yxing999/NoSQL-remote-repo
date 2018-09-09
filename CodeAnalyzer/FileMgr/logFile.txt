@@ -1,0 +1,62 @@
+
+                                      CodeAnalysis - Version 1.4
+    ==============================================================================================
+     Sun Sep 17 14:31:11 2017
+     Path: "C:\Users\jfawc\Desktop\Project3\FileMgr"
+     Args: *.h, *.cpp, *.cs, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      37
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 FileMgr.h   namespace                        FileManager      51     125      21
+                 FileMgr.h       class                            FileMgr      53     117      19
+                 FileMgr.h    function                           ~FileMgr      61       2       1
+                 FileMgr.h    function                            FileMgr      67       4       1
+                 FileMgr.h    function                        getInstance      74       3       1
+                 FileMgr.h    function                         addPattern      80       5       1
+                 FileMgr.h    function                               file      88       7       2
+                 FileMgr.h    function                                dir      98       6       2
+                 FileMgr.h    function                               done     107       6       2
+                 FileMgr.h    function                             search     116       4       1
+                 FileMgr.h    function                               find     123      20       4
+                 FileMgr.h    function                        regForFiles     146       3       1
+                 FileMgr.h    function                         regForDirs     152       3       1
+                 FileMgr.h    function                         regForDone     158       3       1
+                 FileMgr.h    function                             create     172       3       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               FileMgr.cpp    function                        getInstance      16       3       1
+               FileMgr.cpp      struct                        FileHandler      25       6       2
+               FileMgr.cpp    function                            execute      27       3       1
+               FileMgr.cpp      struct                         DirHandler      33       6       2
+               FileMgr.cpp    function                            execute      35       3       1
+               FileMgr.cpp      struct                        DoneHandler      41       6       2
+               FileMgr.cpp    function                            execute      43       3       1
+               FileMgr.cpp    function                               main      48      24       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                IFileMgr.h   namespace                        FileManager      12      32       8
+                IFileMgr.h      struct                  IFileEventHandler      14       3       1
+                IFileMgr.h      struct                   IDirEventHandler      19       3       1
+                IFileMgr.h      struct                  IDoneEventHandler      24       3       1
+                IFileMgr.h      struct                           IFileMgr      29      10       3
+                IFileMgr.h    function                          ~IFileMgr      29       2       1
+                IFileMgr.h      struct                     FileMgrFactory      41       3       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     6 dirs
+   processed     3 files

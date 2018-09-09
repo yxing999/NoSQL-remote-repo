@@ -1,0 +1,56 @@
+ToDo
+======================
+- add checkbox for metric error display-1
+- use newly added ASTNode member parentType_ to simplify ActionsAndRules handlers and GrammarHelper
+- add start button to display mode view in GUI
+- display package name only once in public data display
+- for folding needs to be strengthed - see IRule::doActions - fold recursively
+- add function for global data display
+- add mechanism to optionally seach specified directory instead of recursing
+- select directories to skip - deposit empty file SkipCodeAnalysis and check while running
+- strengthen C++ function rule for Lambda detection
+- strengthen type lookup to account for namespace qualification
+  -- make Type Table that holds type name, list of namespaces, file where defined
+- look for refactorings, especially common code extraction to functions
+- refactor large functions in Window views
+=========================================
+- add code to support tokenizer re-attach - done
+- check folding rules - done
+- add logger - done
+- Add file manager - done
+- add Exec with command line parsing - done
+- delete old rules and actions - done
+- modify config builder for new rules and actions - done
+- make scope detection first rule - done
+- add rule(s) for type detection - done
+- add rule for function detection - done
+- use trimmed semiExp - done
+- add child collection to ASTNode - done
+- add AST processing - done
+- make AST class with map of {type name, ASTNode}s for search - done
+- add destructor for ASTNode - done
+- store paths - done
+- store package name in all nodes with constructor accessing repository - done
+- add function size and complexity analysis - done
+- display file search with \r - done
+- add analysis of file slocs and total slocs, display summary at end - done
+- provide function to show complete matching path list - done, above
+- add /options on command line - done
+- add usage message - done
+- partition testing output into separate options keyed from command line arguments - done
+- add GUI - done
+- Tee logger to write to file - done
+- save and restore GUI user settings - done
+- trim semiExp before first use, ensure that terminator is included from cloning and trimming - done
+- revise rules and actions for the above - done
+- test template functions with syntax fun<param>(...) - done
+- test template class processing - done
+- add rule for public data detection - done
+- test with C# code - done
+- add execution button on setup view - done
+- add path window on setup view - done
+- strengthen declaration rule to catch function declarations - done
+- remove last scope in ControlDefinition rule then test - done
+- remove commented code in ActionsAndRules::HandleCSharpFunctionDefinition after testing - done
+- clean up test and handle executables in ActionsAndRules.h - done
+- Change names: GUI -> VisualCodeAnalyser and Analyzer -> CodeAnalyzer - done
